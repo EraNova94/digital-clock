@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./media/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.clock {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.clock span {
+  width: 100px;
+  height: 80px;
+  background-color: slateblue;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: darkblue;
+}
+
+.clock #ampm {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: green;
+}
